@@ -1,0 +1,14 @@
+.name {
+	color: lime;
+	font-family: cursive;
+}
+
+.occupation {
+	color: yellow;
+	font-family: monospace;
+}
+
+.employee {
+	color: tomato;
+	font-family: monospace;
+}
