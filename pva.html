@@ -1,7 +1,7 @@
 <!DOCTYPE html>
     <html>
     <head>
-        <title>PVA IT Support BOT for Demo</title> 
+        <title>PVA IT Support BOT</title> 
         <!-- This styling is for the canvas demonstration purposes. It is recommended 
     that style is moved to separate file for organization in larger projects -->
         <style>
@@ -45,7 +45,7 @@
             <div class="heading">
 
                 <!-- Change the h1 text to change the bot name -->    
-                <h1>PVA IT Support Bot</h1>
+                <h1> <img src="contosobot.png">PVA IT Support Bot</h1>
 
             </div>
             <div id="webchat" role="main"></div>
@@ -53,9 +53,11 @@
       <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
       <script>
             const styleOptions = {
-               // Add styleOptions to customize web chat canvas
-               hideUploadButton: true
-            };
+
+            botAvatarImage: 'https://docs.microsoft.com/en-us/azure/bot-service/v4sdk/media/logo_bot.svg',
+            userAvatarImage: 'https://avatars.githubusercontent.com/u/661465',
+			backgroundColor: 'lightgray'
+        };
 
             // Add your BOT ID below
             var BOT_ID = "2ded4b45-e499-4226-8631-a54df9e51900"; 
